@@ -46,18 +46,11 @@ python3 read_bot.py [-h] -f FILE
 
 Argumentos requeridos
 
-```python
--f FILE, --file FILE  
-The file to perform the conversion.
-
-```
+-f FILE, --file FILE -> The file to perform the conversion.
 
 Argumentos opicionais
 
-```python
- -h, --help      
-show this help message and exit
-```
+ -h, --help -> show this help message and exit
 
 Exemplo
 

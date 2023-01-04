@@ -1,0 +1,2028 @@
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
+Protótipo de estação metereológica
+
+para usinas fotovoltaicas
+
+Trabalho de Seminários de 
+Engenharia de Produção IV
+
+ 
+O que são estações 
+
+meterológicas?
+
+Uma estação meteorológica é 
+um conjunto de sensores e 
+equipamentos que tem a 
+
+capacidade de medir, gravar e 
+recolher dados sobre o tempo.
+
+São essenciais para a gestão 
+da energia produzida em uma 
+
+usina solar.
+
+ 
+Protótipo de estação 
+
+metereológica
+
+Protótipo de aquisição e envio de 
+dados:
+1. Raspberry Pi 3;
+2. Arduino UNO;
+3. Sensor de umidade e 
+temperatura DHT11;
+
+4. Sensor de luminosidade LDR;
+5. Resistor de 4,7KΩ e de 10KΩ
+6. LED vermelho
+
+5
+
+2
+
+3
+
+1
+
+6
+
+4
+
+ 
+Diagrama de comunicações
+
+Sensor DHT11
+
+ssh
+
+serial
+
+raspberry 
+
+arduino
+
+LDR
+
+MQTT
+
+Adafruit Io
+
+HTTP
+
+ 
+Código no Arduino IDE
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+ 
+Código na Raspberry Pi 3
+
+Os códigos serão disponibilizados em anexo junto com a apresentação
+
+ 
+Campos criados no Adafruit para receber os valores das variáveis 
+enviadas pela Raspberry Pi3
+
+ 
+Dashboard para exibir os campos criados anteriormente
+
+ 
+Protocolos de comunicação usados:
+
+1.
+
+2.
+
+SSH (Secure Socket Shell): protocolo especíﬁco de segurança de troca de 
+arquivos entre cliente e servidor de internet, usando criptograﬁa;
+Serial: consiste na transmissão de dados em SÉRIE, ou seja, UM bit de cada vez e 
+depois de 8 pulsos de clock monta-se o primeiro byte;
+
+3. MQTT (Message Queuing Telemetry Transport): é um protocolo de transporte de 
+
+mensagens de formato Cliente/Servidor, que possibilita a comunicação entre 
+máquinas (Machine to Machine – M2M) e é amplamente usado para 
+conectividade de IoT (Internet of Things). 
+
+4. HTTP (Hypertext Transfer Protocol): é um protocolo de comunicação utilizado 
+
+para sistemas de informação de hipermídia, distribuídos e colaborativos. Ele é a 
+base para a comunicação de dados da World Wide Web.
+
+ 
+Sensores usados:
+
+1. DHT11: O DHT11 é um sensor de 
+
+2.
+
+temperatura e umidade que permite 
+fazer leituras de temperaturas entre 0 a 
+50 Celsius e umidade entre 20 a 90%, 
+muito usado para projetos com 
+Arduino.
+LDR (Light Dependent Resistor): é um 
+componente eletrônico passivo do tipo 
+resistor variável, mais especiﬁcamente, 
+é um resistor cuja resistência varia 
+conforme a intensidade da luz 
+(iluminamento) que incide sobre ele. 
+Tipicamente, à medida que a 
+intensidade da luz aumenta, a sua 
+resistência diminui.
+
+ 
+Custo de produção
+
+Componente
+Raspberry Pi 3
+Arduino UNO
+
+Sensor de umidade e temperatura DHT11
+
+Sensor de luminosidade LDR
+Resistor de 4,7KΩ e de 10KΩ
+
+LED vermelho
+
+Total
+
+Valor
+
+R$659.00
+R$94.90
+R$14.16
+R$1.85
+R$0.13
+R$0.24
+R$770.28
+
+ 
